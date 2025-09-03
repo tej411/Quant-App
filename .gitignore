@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Data / artifacts
+data_cache/
+*.db
+*.sqlite*
+*.csv
+*.parquet
+*.pickle
+*.pkl
+*.joblib
+*.zip
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
